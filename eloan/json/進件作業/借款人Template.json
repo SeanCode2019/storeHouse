@@ -165,7 +165,14 @@
             }
         },
         "type": "",
-        "props": ""
+        "props": {
+            "suffix":{
+                "areaCode":")"
+            },
+            "prefix":{
+                "areaCode":"("
+            }
+        }
     },
     "戶籍地址": {
         "content": {
