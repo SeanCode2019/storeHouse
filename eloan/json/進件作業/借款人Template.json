@@ -1,0 +1,280 @@
+{
+    "借款人姓名": {
+        "content": {
+            "title": "",
+            "selects": "",
+            "value": ""
+        },
+        "type": "",
+        "props": ""
+    },
+    "身分證字號": {
+        "content": {
+            "title": "",
+            "selects": "",
+            "value": {
+                "ID": "",
+                "subID": ""
+            }
+        },
+        "type": "",
+        "props": {
+            "textfield": {
+                "ID": "readonly filled",
+                "subID": "readonly filled"
+            }
+        }
+    },
+    "性別": {
+        "content": {
+            "title": "",
+            "selects": [],
+            "value": ""
+        },
+        "type": "checkbox",
+        "props": ""
+    },
+    "出生年月日": {
+        "content": {
+            "title": "",
+            "selects": "",
+            "value": ""
+        },
+        "type": "",
+        "props": ""
+    },
+    "教育程度": {
+        "content": {
+            "title": "",
+            "selects": [],
+            "value": ""
+        },
+        "type": "",
+        "props": ""
+    },
+    "婚姻狀況": {
+        "content": {
+            "title": "",
+            "selects": [],
+            "value": ""
+        },
+        "type": "",
+        "props": ""
+    },
+    "扶養子女人數": {
+        "content": {
+            "title": "",
+            "selects": "",
+            "value": ""
+        },
+        "type": "",
+        "props": {
+            "suffix": {
+                "扶養子女人數": "人"
+            }
+        }
+    },
+    "國籍代號": {
+        "content": {
+            "title": "",
+            "selects": "",
+            "value": ""
+        },
+        "type": "",
+        "props": ""
+    },
+    "A194洗錢資恐高風險戶": {
+        "content": {
+            "title": "",
+            "selects": "",
+            "value": ""
+        },
+        "type": "",
+        "props": {
+            "textfield": {
+                "A194洗錢資恐高風險戶": "readonly filled"
+            },
+            "suffix":{
+                "A194洗錢資恐高風險戶": "YYYY/MM/DD"
+            }
+        }
+    },
+    "A245拒絕開戶名單": {
+        "content": {
+            "title": "",
+            "selects": "",
+            "value": ""
+        },
+        "type": "",
+        "props": {
+            "textfield": {
+                "A245拒絕開戶名單": "readonly filled"
+            },
+            "suffix":{
+                "A245拒絕開戶名單": "YYYY/MM/DD"
+            }
+        }
+    },
+    "AML系統可疑名單": {
+        "content": {
+            "title": "",
+            "selects": "",
+            "value": {
+                "yOrN": "",
+                "explain": ""
+            }
+        },
+        "type": "",
+        "props": {
+            "textfield": {
+                "yOrN": "readonly filled",
+                "explain": ""
+            },
+            "suffix":{
+                "yOrN": "YYYY/MM/DD"
+            },
+            "col":{
+                "mainPart": 6,
+                "subHeader": 2,
+                "content": 10
+            },
+            "placeholder":{
+                "explain": "如為可疑名單，請說明原因"
+            }
+        }
+    },
+    "戶籍地址類型": {
+        "content": {
+            "title": "",
+            "selects": "",
+            "value": ""
+        },
+        "type": "",
+        "props": ""
+    },
+    "戶籍電話": {
+        "content": {
+            "title": "",
+            "selects": "",
+            "value": {
+                "areaCode": "",
+                "phone": "",
+                "extesion": ""
+            }
+        },
+        "type": "",
+        "props": ""
+    },
+    "戶籍地址": {
+        "content": {
+            "title": "戶籍地址",
+            "selects": "",
+            "value": {
+                "postalCode": {
+                    "content": {
+                        "selects": "",
+                        "value": ""
+                    },
+                    "type": "",
+                    "props": ""
+                },
+                "city": {
+                    "selects": [],
+                    "value": ""
+                },
+                "region": {
+                    "selects": [],
+                    "value": ""
+                },
+                "village": "",
+                "villageType": {
+                    "selects": [],
+                    "value": ""
+                },
+                "neightbrohoood": "",
+                "road": "",
+                "roadType": {
+                    "selects": [],
+                    "value": ""
+                },
+                "section": "",
+                "lane": "",
+                "alley": "",
+                "number": "",
+                "subNumber": "",
+                "floor": "",
+                "subfloor": "",
+                "room": ""
+            }
+        },
+        "type": "address",
+        "props": {
+            "col": {
+                "mainPart": 12,
+                "subHeader": 1,
+                "content": 11
+            }
+        }
+    },
+    "現住房屋遷入年月": {
+        "content": {
+            "title": "",
+            "selects": "",
+            "value": {
+                "year": "",
+                "month": ""
+            }
+        },
+        "type": "",
+        "props": ""
+    },
+    "行動電話": {
+        "content": {
+            "title": "",
+            "selects": "",
+            "value": ""
+        },
+        "type": "",
+        "props": ""
+    },
+    "E-MAIL": {
+        "content": {
+            "title": "",
+            "selects": "",
+            "value": ""
+        },
+        "type": "",
+        "props": ""
+    },
+    "月付房租金額": {
+        "content": {
+            "title": "",
+            "selects": "",
+            "value": ""
+        },
+        "type": "",
+        "props": ""
+    },
+    "月付貸款金額": {
+        "content": {
+            "title": "",
+            "selects": "",
+            "value": ""
+        },
+        "type": "",
+        "props": ""
+    },
+    "測試用": {
+        "content": {
+            "title": "",
+            "selects": "",
+            "value": ""
+        },
+        "type": "",
+        "props": "",
+        "show":{
+            "target":"性別",
+            "value":"女"
+        }
+    }
+}

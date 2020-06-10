@@ -1,0 +1,164 @@
+[
+    {
+        "title": "借款人姓名",
+        "selects": "",
+        "value": "王小名"
+    },
+    {
+        "title": "身分證字號",
+        "selects": "",
+        "value": {
+            "ID": "A123456789",
+            "subID": "0"
+        }
+    },
+    {
+        "title": "性別",
+        "selects": [
+            "男",
+            "女"
+        ],
+        "value": "女"
+    },
+    {
+        "title": "出生年月日",
+        "selects": "",
+        "value": "80/01/01"
+    },
+    {
+        "title": "教育程度",
+        "selects": [
+            "國中",
+            "高中職",
+            "大學(專科)",
+            "碩士",
+            "博士"
+        ],
+        "value": ""
+    },
+    {
+        "title": "婚姻狀況",
+        "selects": [
+            "未婚",
+            "已婚",
+            "其他"
+        ],
+        "value": ""
+    },
+    {
+        "title": "扶養子女人數",
+        "selects": "",
+        "value": ""
+    },
+    {
+        "title": "國籍代號",
+        "selects": "",
+        "value": ""
+    },
+    {
+        "title": "A194洗錢資恐高風險戶",
+        "selects": "",
+        "value": "Y"
+    },
+    {
+        "title": "A245拒絕開戶名單",
+        "selects": "",
+        "value": "Y"
+    },
+    {
+        "title": "AML系統可疑名單",
+        "selects": "",
+        "value": {
+            "yOrN": "Y",
+            "explain": ""
+        }
+    },
+    {
+        "title": "戶籍地址類型",
+        "selects": ["本人所有","配偶所有","父母所有","家族所有","宿舍","租賃","其他"],
+        "value": ""
+    },
+    {
+        "title": "戶籍電話",
+        "selects": "",
+        "value": {
+            "areaCode": "02",
+            "phone":"28881111",
+            "extesion":""
+        }
+    },
+    {
+        "title": "戶籍地址",
+        "selects": "",
+        "value": {
+            "postalCode":{
+                "content": {
+                    "selects": "",
+                    "value": "105"
+                },
+                "type": "",
+                "props": ""
+            },
+            "city":{
+                "selects":["台北市","新北市"],
+                "value":"台北市"
+            },
+            "region":{
+                "selects":["松山區","大安區"],
+                "value":"松山區"
+            },
+            "village":"精忠",
+            "villageType": {
+                "selects": ["村","里"],
+                "value": "里"
+            },
+            "neightbrohoood":"006",
+            "road":"民生東",
+            "roadType":{
+                "selects": ["路","街","道"],
+                "value": "路"
+            },
+            "section":"",
+            "lane":"",
+            "alley":"",
+            "number":"133",
+            "subNmeber":"",
+            "floor":"11",
+            "subfloor":"",
+            "room":""
+        }
+    },
+    {
+        "title": "現住房屋遷入年月",
+        "selects": "",
+        "value": {
+            "year":"",
+            "month":""
+        }
+    },
+    {
+        "title": "行動電話",
+        "selects": "",
+        "value": "0988123456"
+    },
+    {
+        "title": "E-MAIL",
+        "selects": "",
+        "value": ""
+    },
+    {
+        "title": "月付房租金額",
+        "selects": "",
+        "value": "100000"
+    },
+    {
+        "title": "月付貸款金額",
+        "selects": "",
+        "value": "100000"
+    },
+    {
+        "title": "測試用",
+        "selects": "",
+        "value": "100000"
+    }
+]
