@@ -126,9 +126,11 @@
         },
         "type": "",
         "props": {
-            "textfield": {
-                "yOrN": "readonly filled",
-                "explain": ""
+            "readonly": {
+                "yOrN": "readonly"
+            },
+            "filled": {
+                "yOrN": "filled"
             },
             "suffix":{
                 "yOrN": "YYYY/MM/DD"

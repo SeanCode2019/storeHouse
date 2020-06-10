@@ -13,7 +13,7 @@
               v-model="item.content.value"
               :readonly="GetTextFieldProp('readonly', item, propertyName)"
               :filled="GetTextFieldProp('filled', item, propertyName)"
-              :suffix="GetSuffix(item, propertyName)"
+              :suffix="GetProp('suffix',item, propertyName)"
             ></v-text-field>
             <!-- checkbox -->
             <v-radio-group
@@ -37,10 +37,10 @@
               >
                 <v-text-field
                   v-model="item.content.value[propertyName]"
-                  :readonly="GetTextFieldProp('readonly',item, propertyName)"
-                  :filled="GetTextFieldProp('filled',item, propertyName)"
-                  :suffix="GetSuffix(item, propertyName)"
-                  :placeholder="GetTextFieldProp('placeholder',item, propertyName)"
+                  :readonly="GetProp('readonly',item, propertyName)"
+                  :filled="GetProp('filled',item, propertyName)"
+                  :suffix="GetProp('suffix', item, propertyName)"
+                  :placeholder="GetProp('placeholder',item, propertyName)"
                 ></v-text-field>
               </v-col>
             </v-row>
@@ -160,7 +160,8 @@ export default {
     DecideType,
     DecideCol,
     GetTextFieldProp,
-    GetSuffix
+    GetSuffix,
+    GetProp
   },
   computed: {
     CheckShow
@@ -217,6 +218,11 @@ function GetTextFieldProp(_props, _item, _propertyName) {
   if (_item.props.textfield != undefined) {
     return _item.props.textfield[_propertyName].includes(_props);
   }
+}
+
+function GetProp(_prop, _item, _propName) {
+  let hasProp = _item.props[_prop] != undefined
+  return hasProp ? _item.props[_prop][_propName] : ''
 }
 
 function GetSuffix(_item, _propName) {
