@@ -1,7 +1,6 @@
 <template>
   <v-app>
-    <v-container fluid
-                 grid-list-xs>
+    <v-container fluid grid-list-xs>
       <autoForm :data="template"></autoForm>
     </v-container>
   </v-app>
@@ -14,7 +13,6 @@ import autoForm from "./components/AutoForm";
 
 let template = 借款人Template;
 let myData = 借款人Data;
-// let test =''
 
 export default {
   name: "App",
@@ -26,18 +24,20 @@ export default {
     myData
   }),
   methods: {},
-  computed: {}
-  // mounted() {
-  //   CombineDataWithTemplate(template, myData);
-  // }
+  computed: {},
+  mounted() {
+    CombineDataWithTemplate(template, myData);
+  }
 };
 
-// function CombineDataWithTemplate(_template, _Data) {
-//   for (let i = 0; i < _Data.length; i++) {
-//     let item = _Data[i];
-//     _template[item.title].content = item;
-//   }
-// }
+function CombineDataWithTemplate(_template, _Data) {
+  for (let i = 0; i < _template.length; i++) {
+    for (let j = 0; j < template[i].items.length; j++) {
+      let currDate = _Data.find(x => x.title === _template[i].items[j].title);
+      _template[i].items[j].value = currDate.value;
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
