@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-container fluid grid-list-xs>
-      <top :data="data.top"></top> 
+      <top :data="templates.top"></top> 
       <autoForm :data="currTemplate"></autoForm>
     </v-container>
   </v-app>
@@ -16,8 +16,8 @@ import top from "./components/Top";
 // let currData = data.borrower
 // let currTemplate = templates.borrower
 
-let currData = 1
-let currTemplate = 1
+let currData = {}
+let currTemplate = {}
 
 export default {
   name: "App",
@@ -36,17 +36,18 @@ export default {
   methods: {},
   computed: {},
   beforeCreate(){
-    Initialize()
+    SelectTemplateAndData('borrower')
   },
   mounted() {
     CombineDataWithTemplate(currTemplate, currData);
+    CombineDataWithTemplate(templates.top, data.top);
   }
 };
 
-//select default template and data
-function Initialize() {
-  currTemplate = templates.borrower
-  currData = data.borrower
+//select current template and data
+function SelectTemplateAndData(_term) {
+  currTemplate = templates[_term]
+  currData = data[_term]
 }
 
 function CombineDataWithTemplate(_template, _Data) {

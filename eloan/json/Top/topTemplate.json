@@ -7,18 +7,19 @@
             "lg": "4",
             "xl": "3"
         },
+        "class": "ml-auto",
         "labelCols": "4",
         "items": [
             {
                 "field": "borrower",
                 "type": "input",
-                "cols": "8",
+                "cols": "3",
                 "value": ""
             },
             {
                 "field": "id",
                 "type": "input",
-                "cols": "8",
+                "cols": "5",
                 "value": ""
             }
         ]
@@ -29,14 +30,14 @@
             "sm": "12",
             "md": "6",
             "lg": "4",
-            "xl": "3"
+            "xl": "2"
         },
-        "labelCols": "4",
+        "labelCols": "6",
         "items": [
             {
                 "field": "garbled",
                 "type": "input",
-                "cols": "8",
+                "cols": "6",
                 "value": ""
             }
         ]
@@ -47,32 +48,14 @@
             "sm": "12",
             "md": "6",
             "lg": "4",
-            "xl": "3"
+            "xl": "2"
         },
-        "labelCols": "4",
+        "labelCols": "6",
         "items": [
             {
                 "field": "processStatus",
                 "type": "input",
-                "cols": "8",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "label": "借款人",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
-        },
-        "labelCols": "4",
-        "items": [
-            {
-                "field": "borrower",
-                "type": "input",
-                "cols": "8",
+                "cols": "6",
                 "value": ""
             }
         ]
@@ -83,14 +66,14 @@
             "sm": "12",
             "md": "6",
             "lg": "4",
-            "xl": "3"
+            "xl": "2"
         },
-        "labelCols": "4",
+        "labelCols": "6",
         "items": [
             {
                 "field": "autoReturn",
                 "type": "input",
-                "cols": "8",
+                "cols": "6",
                 "value": ""
             }
         ]
