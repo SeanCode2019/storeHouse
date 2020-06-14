@@ -1,0 +1,98 @@
+[
+    {
+        "label": "借款人",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "field": "borrower",
+                "type": "input",
+                "cols": "8",
+                "value": ""
+            },
+            {
+                "field": "id",
+                "type": "input",
+                "cols": "8",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "文件亂碼",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "field": "garbled",
+                "type": "input",
+                "cols": "8",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "流程狀態",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "field": "processStatus",
+                "type": "input",
+                "cols": "8",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "借款人",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "field": "borrower",
+                "type": "input",
+                "cols": "8",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "自動退回",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "field": "autoReturn",
+                "type": "input",
+                "cols": "8",
+                "value": ""
+            }
+        ]
+    }
+]

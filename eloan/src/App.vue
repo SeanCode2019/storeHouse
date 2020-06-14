@@ -1,8 +1,8 @@
 <template>
   <v-app>
     <v-container fluid grid-list-xs>
-      <top></top> 
-      <autoForm :data="template"></autoForm>
+      <top :data="data.top"></top> 
+      <autoForm :data="currTemplate"></autoForm>
     </v-container>
   </v-app>
 </template>
@@ -13,6 +13,12 @@ import {data} from "../js/allData";
 import autoForm from "./components/AutoForm";
 import top from "./components/Top";
 
+// let currData = data.borrower
+// let currTemplate = templates.borrower
+
+let currData = 1
+let currTemplate = 1
+
 export default {
   name: "App",
   components: {
@@ -21,23 +27,26 @@ export default {
   },
   data: () => ({
     //all template and data
-    templates: templates,
-    data: data,
+    templates,
+    data,
     //當前的template and data
-    currTemplate: {},
-    currData: {}
+    currTemplate,
+    currData
   }),
   methods: {},
   computed: {},
+  beforeCreate(){
+    Initialize()
+  },
   mounted() {
-    Initialize(this.templates, this.data, this.currTemplate, this.currData)
-    CombineDataWithTemplate(this.currTemplate, this.currData);
+    CombineDataWithTemplate(currTemplate, currData);
   }
 };
 
 //select default template and data
-function Initialize(_templates, _currTemplate) {
-  _currTemplate = _templates.borrower
+function Initialize() {
+  currTemplate = templates.borrower
+  currData = data.borrower
 }
 
 function CombineDataWithTemplate(_template, _Data) {
