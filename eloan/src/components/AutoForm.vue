@@ -1,8 +1,8 @@
 <template>
   <v-row>
     <template v-for="(item, index) in data">
-      <v-col :cols="item.cols" :md="item.md" :lg="item.lg" :xl="item.xl" :key="index" >
-        <v-row>
+      <v-col :md="item.cols.md" :lg="item.cols.lg" :xl="item.cols.xl" :cols="item.cols.sm" :key="index" >
+        <v-row >
           <v-col :cols="item.labelCols"  :md="item.labelMd">
             <v-subheader>{{item.label}}</v-subheader>
           </v-col>

@@ -1,40 +1,51 @@
 <template>
   <v-app>
     <v-container fluid grid-list-xs>
+      <top></top> 
       <autoForm :data="template"></autoForm>
     </v-container>
   </v-app>
 </template>
 
 <script>
-import 借款人Data from "../json/進件作業/借款人Data.json";
-import 借款人Template from "../json/進件作業/借款人Template.json";
+import {templates} from "../js/allTemplates";
+import {data} from "../js/allData";
 import autoForm from "./components/AutoForm";
-
-let template = 借款人Template;
-let myData = 借款人Data;
+import top from "./components/Top";
 
 export default {
   name: "App",
   components: {
+    top,
     autoForm
   },
   data: () => ({
-    template,
-    myData
+    //all template and data
+    templates: templates,
+    data: data,
+    //當前的template and data
+    currTemplate: {},
+    currData: {}
   }),
   methods: {},
   computed: {},
   mounted() {
-    CombineDataWithTemplate(template, myData);
+    Initialize(this.templates, this.data, this.currTemplate, this.currData)
+    CombineDataWithTemplate(this.currTemplate, this.currData);
   }
 };
 
+//select default template and data
+function Initialize(_templates, _currTemplate) {
+  _currTemplate = _templates.borrower
+}
+
 function CombineDataWithTemplate(_template, _Data) {
   for (let i = 0; i < _template.length; i++) {
-    for (let j = 0; j < template[i].items.length; j++) {
-      let currDate = _Data.find(x => x.title === _template[i].items[j].title);
-      _template[i].items[j].value = currDate.value;
+    for (let j = 0; j < _template[i].items.length; j++) {
+      //用template裡的field，對應到data內的prop
+      let dataProp = _template[i].items[j].field
+      _template[i].items[j].value = _Data[dataProp];
     }
   }
 }
