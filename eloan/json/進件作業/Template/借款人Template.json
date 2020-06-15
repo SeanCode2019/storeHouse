@@ -1,0 +1,278 @@
+[
+    {
+        "label": "借款人姓名",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "title": "Borrower",
+                "type": "input",
+                "cols": "8",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "身分證字號",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "title": "ID",
+                "type": "input",
+                "cols": "3",
+                "value": ""
+            },
+            {
+                "title": "subID",
+                "type": "input",
+                "cols": "3",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "性別",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "title": "gender",
+                "type": "checkbox",
+                "selects": [
+                    "男",
+                    "女"
+                ],
+                "cols": "6",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "戶籍地址",
+        "cols": {
+            "sm": "12",
+            "md": "12",
+            "lg": "12",
+            "xl": "12"
+        },
+        "labelCols": "",
+        "items": [
+            {
+                "title": "postalCode",
+                "type": "input",
+                "cols": "",
+                "value": ""
+            },
+            {
+                "title": "County",
+                "type": "select",
+                "cols": "",
+                "value": "",
+                "selects": [
+                    {
+                        "text": "縣市別",
+                        "value": "country"
+                    },
+                    {
+                        "text": "台北市",
+                        "value": "taipei"
+                    },
+                    {
+                        "text": "新北市",
+                        "value": "newTaipei"
+                    }
+                ]
+            },
+            {
+                "title": "region",
+                "type": "select",
+                "cols": "",
+                "value": "",
+                "selects": [
+                    {
+                        "text": "鄉/鎮/市/區",
+                        "value": "01"
+                    },
+                    {
+                        "text": "松山區",
+                        "value": "02"
+                    },
+                    {
+                        "text": "大安區",
+                        "value": "03"
+                    }
+                ]
+            },
+            {
+                "title": "village",
+                "type": "input",
+                "cols": "",
+                "value": "",
+                "suffix": "村(里)"
+            },
+            {
+                "title": "adjacent",
+                "type": "input",
+                "cols": "",
+                "value": "",
+                "suffix": "鄰"
+            },
+            {
+                "title": "road",
+                "type": "input",
+                "cols": "",
+                "value": ""
+            },
+            {
+                "title": "roadType",
+                "type": "select",
+                "cols": "",
+                "value": "",
+                "suffix": "鄰",
+                "placeholder": "路",
+                "selects": [
+                    {
+                        "text": "路",
+                        "value": "01"
+                    },
+                    {
+                        "text": "街",
+                        "value": "02"
+                    },
+                    {
+                        "text": "道",
+                        "value": "03"
+                    }
+                ]
+            },
+            {
+                "title": "segment",
+                "type": "select",
+                "cols": "",
+                "value": "",
+                "selects": [
+                    {
+                        "text": "無",
+                        "value": "0"
+                    },
+                    {
+                        "text": "一",
+                        "value": "01"
+                    },
+                    {
+                        "text": "二",
+                        "value": "02"
+                    },
+                    {
+                        "text": "三",
+                        "value": "03"
+                    },
+                    {
+                        "text": "四",
+                        "value": "04"
+                    },
+                    {
+                        "text": "五",
+                        "value": "05"
+                    }
+                ]
+            },
+            {
+                "title": "lane",
+                "type": "input",
+                "cols": "",
+                "value": "",
+                "suffix": "巷"
+            },
+            {
+                "title": "alley",
+                "type": "input",
+                "cols": "",
+                "value": "",
+                "suffix": "弄"
+            },
+            {
+                "title": "num",
+                "type": "input",
+                "cols": "",
+                "value": "",
+                "suffix": "號"
+            },
+            {
+                "title": "floor",
+                "type": "input",
+                "cols": "",
+                "value": "",
+                "prefix": "之",
+                "suffix": "樓"
+            },
+            {
+                "title": "Of",
+                "type": "input",
+                "cols": "",
+                "value": "",
+                "prefix": "之"
+            },
+            {
+                "title": "room",
+                "type": "input",
+                "cols": "",
+                "value": "",
+                "suffix": "室"
+            }
+        ]
+    },
+    {
+        "label": "教育程度(*)",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "title": "educationLevel",
+                "type": "select",
+                "cols": "",
+                "value": "",
+                "placeholder": "請選擇",
+                "selects": [
+                    {
+                        "text": "請選擇",
+                        "value": "0"
+                    },
+                    {
+                        "text": "國中以下",
+                        "value": "01"
+                    },
+                    {
+                        "text": "國中",
+                        "value": "02"
+                    },
+                    {
+                        "text": "高中職",
+                        "value": "03"
+                    }
+                ]
+            }
+        ]
+    }
+]

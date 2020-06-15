@@ -1,0 +1,392 @@
+[
+    {
+        "label": "申請編號",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "title": "ApplicationNum",
+                "type": "input",
+                "cols": "8",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "營業單位",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "title": "BusinessUnit",
+                "type": "input",
+                "cols": "8",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "業務專員行編",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "title": "SpecialistNum",
+                "type": "input",
+                "cols": "4",
+                "value": ""
+            },
+            {
+                "title": "Specialist",
+                "type": "input",
+                "cols": "4",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "申請類別",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "title": "ApplicationCategory",
+                "type": "input",
+                "cols": "8",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "進件申請日期",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "title": "EntryApplicationDate",
+                "type": "date",
+                "cols": "8",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "借款人申請日期(*)",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "title": "BorrowerApplicationDate",
+                "type": "date",
+                "cols": "8",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "業務專員分機",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "title": "SpecialistExtension",
+                "type": "input",
+                "cols": "8",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "撥款單位(*)",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "title": "FundingUnit",
+                "type": "select",
+                "cols": "8",
+                "value": "",
+                "selects": [
+                    {
+                        "text": "093-營業部",
+                        "value": "093"
+                    },
+                    {
+                        "text": "094 - 安和分行",
+                        "value": "094"
+                    },
+                    {
+                        "text": "103 - 忠孝路分行",
+                        "value": "103"
+                    },
+                    {
+                        "text": "131 - 大同分行",
+                        "value": "131"
+                    },
+                    {
+                        "text": "102 - 西門分行",
+                        "value": "102"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "招攬人員類別(*)",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "title": "RecruitmentCategory",
+                "type": "select",
+                "cols": "8",
+                "value": "",
+                "selects": [
+                    {
+                        "text": "1 - 實際招攬人員",
+                        "value": "1"
+                    },
+                    {
+                        "text": "2 - 金控轉介單",
+                        "value": "2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "招攬人員行編(*)",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "title": "SolicitNum",
+                "type": "input",
+                "cols": "4",
+                "value": ""
+            },
+            {
+                "title": "Solicit",
+                "type": "input",
+                "cols": "4",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "轉介人員行編(*)",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "title": "ReferralNum",
+                "type": "input",
+                "cols": "4",
+                "value": ""
+            },
+            {
+                "title": "Referral",
+                "type": "input",
+                "cols": "4",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "案件來源(通路)代號(*)",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "title": "RecruitmentCategory ",
+                "type": "select",
+                "cols": "8",
+                "value": "",
+                "selects": [
+                    {
+                        "text": "請選擇",
+                        "value": "0"
+                    },
+                    {
+                        "text": "01-分行",
+                        "value": "01"
+                    },
+                    {
+                        "text": "09-建商/代銷公司",
+                        "value": "09"
+                    },
+                    {
+                        "text": "10-房屋仲介",
+                        "value": "10"
+                    },
+                    {
+                        "text": "11-Call Center",
+                        "value": "11"
+                    },
+                    {
+                        "text": "13-永慶房屋",
+                        "value": "13"
+                    },
+                    {
+                        "text": "20-代書",
+                        "value": "20"
+                    },
+                    {
+                        "text": "21-公司/機關/團體",
+                        "value": "21"
+                    },
+                    {
+                        "text": "22-土建融都更",
+                        "value": "22"
+                    },
+                    {
+                        "text": "29-通路專案",
+                        "value": "29"
+                    },
+                    {
+                        "text": "31-VTM",
+                        "value": "31"
+                    },
+                    {
+                        "text": "32-第e數速貸",
+                        "value": "32"
+                    },
+                    {
+                        "text": "99-其他",
+                        "value": "99"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "申請途徑(*)",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "title": "ApplicationRoute",
+                "type": "select",
+                "cols": "8",
+                "value": "",
+                "selects": [
+                    {
+                        "text": "分行",
+                        "value": "branch"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "消息來源(*)",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "title": "Source",
+                "type": "select",
+                "cols": "8",
+                "value": "",
+                "selects": [
+                    {
+                        "text": "電試",
+                        "value": "TV"
+                    },
+                    {
+                        "text": "分行招攬",
+                        "value": "solicitation"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "重要註記",
+        "cols": {
+            "sm": "12",
+            "md": "12",
+            "lg": "12",
+            "xl": "12"
+        },
+        "labelCols": "1",
+        "items": [
+            {
+                "title": "ImportantNotes",
+                "type": "textArea",
+                "cols": "'11",
+                "value": ""
+            }
+        ]
+    }
+]

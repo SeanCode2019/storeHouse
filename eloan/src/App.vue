@@ -2,50 +2,42 @@
   <v-app>
     <v-container fluid
                  grid-list-xs>
-      <autoForm :data="template"></autoForm>
+      <Header />
+      <Tabs :items="tabs" />
+      <v-divider></v-divider>
+      <FeedOperation />
     </v-container>
   </v-app>
 </template>
 
 <script>
-import 借款人Data from "../json/進件作業/借款人Data.json";
-import 借款人Template from "../json/進件作業/借款人Template.json";
-import autoForm from "./components/AutoForm";
-
-let template = 借款人Template;
-let myData = 借款人Data;
-// let test =''
+import Header from "./components/Header";
+import Tabs from "./components/Tabs";
+import FeedOperation from "./components/FeedOperation";
 
 export default {
-  name: "App",
+  title: "App",
   components: {
-    autoForm
+    Header,
+    Tabs,
+    FeedOperation
   },
   data: () => ({
-    template,
-    myData
+    tabs: [
+      { text: "進貨作業", href: "" },
+      { text: "徵信作業", href: "" },
+      { text: "擔保品資料", href: "" },
+      { text: "授信作業", href: "" },
+      { text: "信用評等", href: "" },
+      { text: "附表文件", href: "" },
+      { text: "檢附文件", href: "" },
+      { text: "批覆作業", href: "" },
+      { text: "批覆書上傳", href: "" },
+      { text: "案件記錄", href: "" }
+    ]
   }),
   methods: {},
   computed: {}
-  // mounted() {
-  //   CombineDataWithTemplate(template, myData);
-  // }
 };
-
-// function CombineDataWithTemplate(_template, _Data) {
-//   for (let i = 0; i < _Data.length; i++) {
-//     let item = _Data[i];
-//     _template[item.title].content = item;
-//   }
-// }
 </script>
 
-<style lang="scss" scoped>
-.v-chip {
-  height: 70px !important;
-  font-size: 70px;
-  width: inherit;
-  display: block;
-  white-space: normal;
-}
-</style>
