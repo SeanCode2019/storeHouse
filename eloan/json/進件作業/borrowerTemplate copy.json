@@ -1,0 +1,136 @@
+[
+    {
+        "label": "借款人姓名",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "field": "borrower",
+                "type": "input",
+                "cols": "8",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "性別",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "field": "gender",
+                "type": "checkbox",
+                "cols": "8",
+                "selects": [
+                    {
+                        "key": "男",
+                        "value": "M"
+                    },
+                    {
+                        "key": "女",
+                        "value": "F"
+                    }
+                ],
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "教育程度",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "field": "educationLevel",
+                "type": "select",
+                "cols": "8",
+                "selects": [
+                    "國中以下",
+                    "國中",
+                    "高中"
+                ],
+                "value": ""
+            }
+        ]
+    },
+    {
+        "label": "戶籍電話",
+        "cols": {
+            "sm": "12",
+            "md": "6",
+            "lg": "4",
+            "xl": "3"
+        },
+        "labelCols": "4",
+        "items": [
+            {
+                "field": "phoneRegionCode",
+                "type": "input",
+                "cols": "2",
+                "value": "",
+                "prefix": "(",
+                "suffix": ")"
+            },
+            {
+                "field": "phoneNumber",
+                "type": "input",
+                "cols": "4",
+                "value": ""
+            },
+            {
+                "field": "phoneExtension",
+                "type": "input",
+                "cols": "2",
+                "value": "",
+                "placeholder": "分機"
+            }
+        ]
+    },
+    {
+        "label": "AML系統可疑名單",
+        "cols": {
+            "sm": "12",
+            "md": "12",
+            "lg": "8",
+            "xl": "6"
+        },
+        "labelCols": "4",
+        "labelMd": "2",
+        "items": [
+            {
+                "field": "amlSuspicious",
+                "type": "input",
+                "cols": "8",
+                "md": "5",
+                "value": "",
+                "suffix": "YYYY/MM/DD",
+                "filled": ""
+            },
+            {
+                "field": "amlSuspiciousExplain",
+                "type": "input",
+                "cols": "8",
+                "offset": "4",
+                "offsetMd": "0",
+                "md": "5",
+                "value": "",
+                "placeholder": "如為可疑名單，請說明原因"
+            }
+        ]
+    }
+]

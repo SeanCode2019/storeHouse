@@ -1,9 +1,11 @@
 import borrowerData from "../json/進件作業/borrowerData"
 import topData from "../json/Top/topData"
+import tabsData from "../json/Tabs/tabs"
 
 let data = {
-    top : topData,
-    borrower : borrowerData
+    tabs: tabsData,
+    top: topData,
+    borrower: borrowerData
 }
 
-export {data}
+export { data }
