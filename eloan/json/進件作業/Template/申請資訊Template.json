@@ -1,150 +1,216 @@
 [
     {
-        "label": "申請編號",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
         },
-        "labelCols": "4",
+        "label": {
+            "text": "申請編號",
+            "cols": {
+                "col": "4"
+            }
+        },
         "items": [
             {
                 "title": "ApplicationNum",
                 "type": "input",
-                "cols": "8",
+                "cols": {
+                    "col": "8"
+                },
                 "value": ""
             }
         ]
     },
     {
-        "label": "營業單位",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
         },
-        "labelCols": "4",
+        "label": {
+            "text": "營業單位",
+            "cols": {
+                "col": "4"
+            }
+        },
         "items": [
             {
                 "title": "BusinessUnit",
                 "type": "input",
-                "cols": "8",
+                "cols": {
+                    "col": "8"
+                },
                 "value": ""
             }
         ]
     },
     {
-        "label": "業務專員行編",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
         },
-        "labelCols": "4",
+        "label": {
+            "text": "業務專員行編",
+            "cols": {
+                "col": "4"
+            }
+        },
         "items": [
             {
                 "title": "SpecialistNum",
                 "type": "input",
-                "cols": "4",
+                "cols": {
+                    "col": "4"
+                },
                 "value": ""
             },
             {
                 "title": "Specialist",
                 "type": "input",
-                "cols": "4",
+                "cols": {
+                    "col": "4"
+                },
                 "value": ""
             }
         ]
     },
     {
-        "label": "申請類別",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
         },
-        "labelCols": "4",
+        "label": {
+            "text": "申請類別",
+            "cols": {
+                "col": "4"
+            }
+        },
         "items": [
             {
                 "title": "ApplicationCategory",
                 "type": "input",
-                "cols": "8",
+                "cols": {
+                    "col": "8"
+                },
                 "value": ""
             }
         ]
     },
     {
-        "label": "進件申請日期",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
         },
-        "labelCols": "4",
+        "label": {
+            "text": "進件申請日期",
+            "cols": {
+                "col": "4"
+            }
+        },
         "items": [
             {
                 "title": "EntryApplicationDate",
                 "type": "date",
-                "cols": "8",
+                "cols": {
+                    "col": "8"
+                },
                 "value": ""
             }
         ]
     },
     {
-        "label": "借款人申請日期(*)",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
         },
-        "labelCols": "4",
+        "label": {
+            "text": "借款人申請日期(*)",
+            "cols": {
+                "col": "4"
+            }
+        },
         "items": [
             {
                 "title": "BorrowerApplicationDate",
                 "type": "date",
-                "cols": "8",
+                "cols": {
+                    "col": "8"
+                },
                 "value": ""
             }
         ]
     },
     {
-        "label": "業務專員分機",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
         },
-        "labelCols": "4",
+        "label": {
+            "text": "業務專員分機",
+            "cols": {
+                "col": "4"
+            }
+        },
         "items": [
             {
                 "title": "SpecialistExtension",
                 "type": "input",
-                "cols": "8",
+                "cols": {
+                    "col": "8"
+                },
                 "value": ""
             }
         ]
     },
     {
-        "label": "撥款單位(*)",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
         },
-        "labelCols": "4",
+        "label": {
+            "text": "撥款單位(*)",
+            "cols": {
+                "col": "4"
+            }
+        },
         "items": [
             {
                 "title": "FundingUnit",
                 "type": "select",
-                "cols": "8",
+                "cols": {
+                    "col": "8"
+                },
                 "value": "",
                 "selects": [
                     {
@@ -172,19 +238,27 @@
         ]
     },
     {
-        "label": "招攬人員類別(*)",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
         },
-        "labelCols": "4",
+        "label": {
+            "text": "招攬人員類別(*)",
+            "cols": {
+                "col": "4"
+            }
+        },
         "items": [
             {
                 "title": "RecruitmentCategory",
                 "type": "select",
-                "cols": "8",
+                "cols": {
+                    "col": "8"
+                },
                 "value": "",
                 "selects": [
                     {
@@ -200,67 +274,95 @@
         ]
     },
     {
-        "label": "招攬人員行編(*)",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
         },
-        "labelCols": "4",
+        "label": {
+            "text": "招攬人員行編(*)",
+            "cols": {
+                "col": "4"
+            }
+        },
         "items": [
             {
                 "title": "SolicitNum",
                 "type": "input",
-                "cols": "4",
+                "cols": {
+                    "col": "4"
+                },
                 "value": ""
             },
             {
                 "title": "Solicit",
                 "type": "input",
-                "cols": "4",
+                "cols": {
+                    "col": "4"
+                },
                 "value": ""
             }
         ]
     },
     {
-        "label": "轉介人員行編(*)",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
         },
-        "labelCols": "4",
+        "label": {
+            "text": "轉介人員行編(*)",
+            "cols": {
+                "col": "4"
+            }
+        },
         "items": [
             {
                 "title": "ReferralNum",
                 "type": "input",
-                "cols": "4",
+                "cols": {
+                    "col": "4"
+                },
                 "value": ""
             },
             {
                 "title": "Referral",
                 "type": "input",
-                "cols": "4",
+                "cols": {
+                    "col": "4"
+                },
                 "value": ""
             }
         ]
     },
     {
-        "label": "案件來源(通路)代號(*)",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
         },
-        "labelCols": "4",
+        "label": {
+            "text": "案件來源(通路)代號(*)",
+            "cols": {
+                "col": "4"
+            }
+        },
         "items": [
             {
                 "title": "RecruitmentCategory ",
                 "type": "select",
-                "cols": "8",
+                "cols": {
+                    "col": "8"
+                },
                 "value": "",
                 "selects": [
                     {
@@ -320,19 +422,27 @@
         ]
     },
     {
-        "label": "申請途徑(*)",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
         },
-        "labelCols": "4",
+        "label": {
+            "text": "申請途徑(*)",
+            "cols": {
+                "col": "4"
+            }
+        },
         "items": [
             {
                 "title": "ApplicationRoute",
                 "type": "select",
-                "cols": "8",
+                "cols": {
+                    "col": "8"
+                },
                 "value": "",
                 "selects": [
                     {
@@ -344,19 +454,27 @@
         ]
     },
     {
-        "label": "消息來源(*)",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
         },
-        "labelCols": "4",
+        "label": {
+            "text": "消息來源(*)",
+            "cols": {
+                "col": "4"
+            }
+        },
         "items": [
             {
                 "title": "Source",
                 "type": "select",
-                "cols": "8",
+                "cols": {
+                    "col": "8"
+                },
                 "value": "",
                 "selects": [
                     {
@@ -372,19 +490,27 @@
         ]
     },
     {
-        "label": "重要註記",
-        "cols": {
-            "sm": "12",
-            "md": "12",
-            "lg": "12",
-            "xl": "12"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "12",
+                "lg": "12",
+                "xl": "12"
+            }
         },
-        "labelCols": "1",
+        "label": {
+            "text": "重要註記",
+            "cols": {
+                "col": "1"
+            }
+        },
         "items": [
             {
                 "title": "ImportantNotes",
                 "type": "textArea",
-                "cols": "'11",
+                "cols": {
+                    "col": "11"
+                },
                 "value": ""
             }
         ]

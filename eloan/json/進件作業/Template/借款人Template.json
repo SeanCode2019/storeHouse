@@ -1,55 +1,79 @@
 [
     {
-        "label": "借款人姓名",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
         },
-        "labelCols": "4",
+        "label": {
+            "text": "借款人姓名",
+            "cols": {
+                "col": "4"
+            }
+        },
         "items": [
             {
                 "title": "Borrower",
                 "type": "input",
-                "cols": "8",
+                "cols": {
+                    "col": "8"
+                },
                 "value": ""
             }
         ]
     },
     {
-        "label": "身分證字號",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
         },
-        "labelCols": "4",
+        "label": {
+            "text": "身分證字號",
+            "cols": {
+                "col": "4"
+            }
+        },
         "items": [
             {
                 "title": "ID",
                 "type": "input",
-                "cols": "3",
+                "cols": {
+                    "col": "3"
+                },
                 "value": ""
             },
             {
                 "title": "subID",
                 "type": "input",
-                "cols": "3",
+                "cols": {
+                    "col": "3"
+                },
                 "value": ""
             }
         ]
     },
     {
-        "label": "性別",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
         },
-        "labelCols": "4",
+        "label": {
+            "text": "性別",
+            "cols": {
+                "col": "4"
+            }
+        },
         "items": [
             {
                 "title": "gender",
@@ -64,25 +88,35 @@
         ]
     },
     {
-        "label": "戶籍地址",
-        "cols": {
-            "sm": "12",
-            "md": "12",
-            "lg": "12",
-            "xl": "12"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "12",
+                "lg": "12",
+                "xl": "12"
+            }
         },
-        "labelCols": "",
+        "label": {
+            "text": "戶籍地址(*)",
+            "cols": {
+                "col": ""
+            }
+        },
         "items": [
             {
                 "title": "postalCode",
                 "type": "input",
-                "cols": "",
+                "cols": {
+                    "col": ""
+                },
                 "value": ""
             },
             {
                 "title": "County",
                 "type": "select",
-                "cols": "",
+                "cols": {
+                    "col": ""
+                },
                 "value": "",
                 "selects": [
                     {
@@ -102,7 +136,9 @@
             {
                 "title": "region",
                 "type": "select",
-                "cols": "",
+                "cols": {
+                    "col": ""
+                },
                 "value": "",
                 "selects": [
                     {
@@ -122,27 +158,35 @@
             {
                 "title": "village",
                 "type": "input",
-                "cols": "",
+                "cols": {
+                    "col": ""
+                },
                 "value": "",
                 "suffix": "村(里)"
             },
             {
                 "title": "adjacent",
                 "type": "input",
-                "cols": "",
+                "cols": {
+                    "col": ""
+                },
                 "value": "",
                 "suffix": "鄰"
             },
             {
                 "title": "road",
                 "type": "input",
-                "cols": "",
+                "cols": {
+                    "col": ""
+                },
                 "value": ""
             },
             {
                 "title": "roadType",
                 "type": "select",
-                "cols": "",
+                "cols": {
+                    "col": ""
+                },
                 "value": "",
                 "suffix": "鄰",
                 "placeholder": "路",
@@ -164,7 +208,9 @@
             {
                 "title": "segment",
                 "type": "select",
-                "cols": "",
+                "cols": {
+                    "col": ""
+                },
                 "value": "",
                 "selects": [
                     {
@@ -196,28 +242,36 @@
             {
                 "title": "lane",
                 "type": "input",
-                "cols": "",
+                "cols": {
+                    "col": ""
+                },
                 "value": "",
                 "suffix": "巷"
             },
             {
                 "title": "alley",
                 "type": "input",
-                "cols": "",
+                "cols": {
+                    "col": ""
+                },
                 "value": "",
                 "suffix": "弄"
             },
             {
                 "title": "num",
                 "type": "input",
-                "cols": "",
+                "cols": {
+                    "col": ""
+                },
                 "value": "",
                 "suffix": "號"
             },
             {
                 "title": "floor",
                 "type": "input",
-                "cols": "",
+                "cols": {
+                    "col": ""
+                },
                 "value": "",
                 "prefix": "之",
                 "suffix": "樓"
@@ -225,33 +279,45 @@
             {
                 "title": "Of",
                 "type": "input",
-                "cols": "",
+                "cols": {
+                    "col": ""
+                },
                 "value": "",
                 "prefix": "之"
             },
             {
                 "title": "room",
                 "type": "input",
-                "cols": "",
+                "cols": {
+                    "col": ""
+                },
                 "value": "",
                 "suffix": "室"
             }
         ]
     },
     {
-        "label": "教育程度(*)",
-        "cols": {
-            "sm": "12",
-            "md": "6",
-            "lg": "4",
-            "xl": "3"
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
         },
-        "labelCols": "4",
+        "label": {
+            "text": "教育程度(*)",
+            "cols": {
+                "col": "4"
+            }
+        },
         "items": [
             {
                 "title": "educationLevel",
                 "type": "select",
-                "cols": "",
+                "cols": {
+                    "col": ""
+                },
                 "value": "",
                 "placeholder": "請選擇",
                 "selects": [
