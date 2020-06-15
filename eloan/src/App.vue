@@ -40,7 +40,7 @@ export default {
   methods: {},
   computed: {},
   beforeCreate() {
-    SelectTemplateAndData("borrower");
+    SelectTemplateAndData("incoming","borrower");
   },
   mounted() {
     CombineDataWithTemplate(currTemplate, currData);
@@ -49,9 +49,9 @@ export default {
 };
 
 //select current template and data
-function SelectTemplateAndData(_term) {
-  currTemplate = templates[_term];
-  currData = data[_term];
+function SelectTemplateAndData(_term, _subTerm) {
+  currTemplate = templates[_term][_subTerm];
+  currData = data[_term][_subTerm];
 }
 
 function CombineDataWithTemplate(_template, _Data) {
