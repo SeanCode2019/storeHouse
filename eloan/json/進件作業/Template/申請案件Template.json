@@ -1,0 +1,61 @@
+[
+    {
+        "buttons": [
+            {
+                "text":"編輯",
+                "action":""
+            },
+            {
+                "text":"註銷",
+                "action":""
+            },
+            {
+                "text":"刪除",
+                "action":""
+            }
+        ],
+        "datas": [
+            {
+                "text": "Actions",
+                "value": "actions",
+                "sortable": false
+            },
+            {
+                "text": "案件編號",
+                "value": "ApplicationNum"
+            },
+            {
+                "text": "貸款種類",
+                "value": "LoansType"
+            },
+            {
+                "text": "申請金額(元)",
+                "value": "ApplicationAmount"
+            },
+            {
+                "text": "借款期限(月)",
+                "value": "LoanTerm"
+            },
+            {
+                "text": "寬限期限(月)",
+                "value": "DeadLineTerm"
+            },
+            {
+                "text": "利率代碼",
+                "value": "RateCode"
+            },
+            {
+                "text": "利率(%)",
+                "value": "RatePercent"
+            },
+            {
+                "text": "還款方式",
+                "value": "Repayment"
+            },
+            {
+                "text": "案件狀態",
+                "value": "CaseStatus"
+            }
+        ]
+    }
+]

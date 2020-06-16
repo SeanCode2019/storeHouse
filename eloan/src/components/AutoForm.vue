@@ -53,7 +53,7 @@
                           <v-select v-else-if="sub.type==='select'"
                                     :items="sub.selects"
                                     :label="'請選擇'"
-                                    :value="sub.value"
+                                    :item-value="sub.value"
                                     v-model="sub.value"
                                     solo></v-select>
                           <Datepicker v-else-if="sub.type==='date'"

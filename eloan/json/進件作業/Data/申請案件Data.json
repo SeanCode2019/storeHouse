@@ -1,0 +1,13 @@
+[
+    {
+      "ApplicationNum": "180615093B10011A",
+      "LoansType": "SX-個人存單質借",
+      "ApplicationAmount": "2,980,000",
+      "LoanTerm": "240月",
+      "DeadLineTerm": "0",
+      "RateCode": "00-固定利率／存單質借",
+      "RatePercent": "1.81",
+      "Repayment": "4 - 按月繳息到期還本",
+      "CaseStatus": "2-編製"
+    }
+  ]
