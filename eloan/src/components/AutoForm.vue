@@ -19,21 +19,21 @@
                      v-if="!isExpanded(data)"
                      dense>
                 <template v-for="(item,i) in template">
-                  <v-col :cols="item.cols.sm"
-                         :md="item.cols.md"
-                         :lg="item.cols.lg"
-                         :xl="item.cols.xl"
+                  <v-col :cols="item.mainPart.cols.sm"
+                         :md="item.mainPart.cols.md"
+                         :lg="item.mainPart.cols.lg"
+                         :xl="item.mainPart.cols.xl"
                          :key="i">
                     <v-row>
-                      <v-col :cols="item.labelCols">
+                      <v-col :cols="item.label.cols.col">
                         <v-chip class="ma-2 body-2 light-blue darken-3 "
                                 label
                                 dark>
-                          {{item.label}}
+                          {{item.label.text}}
                         </v-chip>
                       </v-col>
                       <template v-for="(sub,i) in item.items">
-                        <v-col :cols="sub.cols"
+                        <v-col :cols="sub.cols.col"
                                :key="i">
                           <v-text-field v-if="sub.type==='input'"
                                         v-model="sub.value"
