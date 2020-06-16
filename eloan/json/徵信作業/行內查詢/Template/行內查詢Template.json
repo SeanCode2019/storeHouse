@@ -1,0 +1,158 @@
+[
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "4"
+            }
+        },
+        "label": {
+            "text": "最近六個月內存款往來有不良紀錄者",
+            "cols": {
+                "col": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "BadRecorder",
+                "type": "input",
+                "cols": {
+                    "col": "8"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "4"
+            }
+        },
+        "label": {
+            "text": "存款曾經遭拒絕往來",
+            "cols": {
+                "col": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "RefuseToContact",
+                "type": "input",
+                "cols": {
+                    "col": "8"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "4"
+            }
+        },
+        "label": {
+            "text": "授信本金已逾期者",
+            "cols": {
+                "col": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "Expired",
+                "type": "input",
+                "cols": {
+                    "col": "8"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "4"
+            }
+        },
+        "label": {
+            "text": "最近六個月內授信往來有三次(含)以上不良紀錄",
+            "cols": {
+                "col": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "ThreeTimes",
+                "type": "input",
+                "cols": {
+                    "col": "8"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "4"
+            }
+        },
+        "label": {
+            "text": "財產受強制執行、假扣押、假處分或拍賣之聲請者",
+            "cols": {
+                "col": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "Claim",
+                "type": "input",
+                "cols": {
+                    "col": "8"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "4"
+            }
+        },
+        "label": {
+            "text": "信用卡因款項未繳而遭強制停卡",
+            "cols": {
+                "col": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "Forced",
+                "type": "input",
+                "cols": {
+                    "col": "8"
+                },
+                "value": ""
+            }
+        ]
+    }
+]
