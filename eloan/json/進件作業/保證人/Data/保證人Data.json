@@ -1,0 +1,26 @@
+[
+    {
+        "Name": "王小弟",
+        "Identity": "B123456780 0",
+        "Relationship": "XD-兄弟姊妹",
+        "Gender": "男",
+        "Age": "53",
+        "MaritalStatus": "未婚",
+        "ContactNumber": "(02) 23481111",
+        "Stakeholder": "否",
+        "ImportYN": "完成",
+        "Guarantee": "A(N-一般保證人)"
+    },
+    {
+        "Name": "徐小妹",
+        "Identity": "A234567893 0",
+        "Relationship": "XA-配偶",
+        "Gender": "女",
+        "Age": "38",
+        "MaritalStatus": "未婚",
+        "ContactNumber": "(02) 23481111",
+        "Stakeholder": "否",
+        "ImportYN": "完成",
+        "Guarantee": "A(N-一般保證人), B(G-連帶保證人)"
+    }
+]

@@ -5,88 +5,83 @@
                      :items-per-page="4"
                      hide-default-footer>
       <template v-slot:default="{ items, isExpanded, expand }">
-        <v-row>
-          <v-col cols="12"
-                 v-for="(data,i) in items"
-                 :key="i">
-            <v-card>
-              <v-switch :input-value="!isExpanded(data)"
-                        :label="data.label"
-                        class="pl-4 pt-4 mt-0 teal lighten-5 font-weight-bold"
-                        @change="(v) => expand(data, !v)"></v-switch>
-              <v-divider></v-divider>
-              <v-row class="ma-3 border"
-                     v-if="!isExpanded(data)"
-                     dense>
-                <template v-for="(item,i) in template">
-                  <v-col :cols="item.mainPart.cols.sm"
-                         :md="item.mainPart.cols.md"
-                         :lg="item.mainPart.cols.lg"
-                         :xl="item.mainPart.cols.xl"
-                         :key="i">
-                    <v-row>
-                      <v-col v-if="item.label.text !==''"
-                             :cols="item.label.cols.sm"
-                             :md="item.label.cols.md"
-                             :lg="item.label.cols.lg"
-                             :xl="item.label.cols.xl">
-                        <v-chip class="ma-2 body-2 light-blue darken-3 "
-                                label
-                                dark>
-                          {{item.label.text}}
-                        </v-chip>
-                      </v-col>
-                      <template v-for="(sub,i) in item.items">
-                        <v-col :cols="sub.cols.sm"
-                               :md="sub.cols.md"
-                               :lg="sub.cols.lg"
-                               :xl="sub.cols.xl"
-                               :key="i">
-                          <v-text-field v-if="sub.type==='input'"
-                                        v-model="sub.value"
-                                        :label="sub.label"
-                                        :filled="sub.filled"
-                                        :readonly="sub.readonly"
-                                        :placeholder="sub.placeholder"
-                                        :prefix="sub.prefix"
-                                        :suffix="sub.suffix"></v-text-field>
-                          <v-textarea v-else-if="sub.type==='textArea'"
-                                      solo
-                                      :value="sub.value"></v-textarea>
-                          <v-radio-group v-else-if="sub.type==='checkbox'"
-                                         v-model="sub.value"
-                                         row>
-                            <v-radio v-for="third in sub.selects"
-                                     :label="third"
-                                     :value="third"
-                                     :key="third"></v-radio>
-                          </v-radio-group>
-                          <v-select v-else-if="sub.type==='select'"
-                                    :items="sub.selects"
-                                    :label="'請選擇'"
-                                    :item-value="sub.value"
-                                    :suffix="sub.suffix"
-                                    v-model="sub.value"
-                                    solo></v-select>
-                          <Datepicker v-else-if="sub.type==='date'"
-                                      :data="sub"
-                                      v-on:ChangeDate="GetDate" />
-                          <v-btn v-else-if="sub.type==='button'"
-                                 :class="sub.class"
-                                 @click="SameAddress"
-                                 dark
-                                 rounded>
-                            {{sub.text}}
-                          </v-btn>
-                        </v-col>
-                      </template>
-                    </v-row>
+        <v-card>
+          <v-switch :input-value="!isExpanded(items)"
+                    :label="items.label"
+                    class="pl-4 pt-4 mt-0 teal lighten-5 font-weight-bold"
+                    @change="(v) => expand(items, !v)"></v-switch>
+          <v-divider></v-divider>
+          <v-row class="ma-3 border"
+                 v-if="!isExpanded(items)"
+                 dense>
+            <template v-for="(item,i) in template">
+              <v-col :cols="item.mainPart.cols.sm"
+                     :md="item.mainPart.cols.md"
+                     :lg="item.mainPart.cols.lg"
+                     :xl="item.mainPart.cols.xl"
+                     :key="i">
+                <v-row>
+                  <v-col v-if="item.label.text !==''"
+                         :cols="item.label.cols.sm"
+                         :md="item.label.cols.md"
+                         :lg="item.label.cols.lg"
+                         :xl="item.label.cols.xl">
+                    <v-chip class="ma-2 body-2 light-blue darken-3 "
+                            label
+                            dark>
+                      {{item.label.text}}
+                    </v-chip>
                   </v-col>
-                </template>
-              </v-row>
-            </v-card>
-          </v-col>
-        </v-row>
+                  <template v-for="(sub,i) in item.items">
+                    <v-col :cols="sub.cols.sm"
+                           :md="sub.cols.md"
+                           :lg="sub.cols.lg"
+                           :xl="sub.cols.xl"
+                           :key="i">
+                      <v-text-field v-if="sub.type==='input'"
+                                    v-model="sub.value"
+                                    :label="sub.label"
+                                    :filled="sub.filled"
+                                    :readonly="sub.readonly"
+                                    :placeholder="sub.placeholder"
+                                    :prefix="sub.prefix"
+                                    :suffix="sub.suffix"></v-text-field>
+                      <v-textarea v-else-if="sub.type==='textArea'"
+                                  solo
+                                  :value="sub.value"></v-textarea>
+                      <v-radio-group v-else-if="sub.type==='checkbox'"
+                                     v-model="sub.value"
+                                     row>
+                        <v-radio v-for="third in sub.selects"
+                                 :label="third"
+                                 :value="third"
+                                 :key="third"></v-radio>
+                      </v-radio-group>
+                      <v-select v-else-if="sub.type==='select'"
+                                :items="sub.selects"
+                                :label="'請選擇'"
+                                :item-value="sub.value"
+                                :suffix="sub.suffix"
+                                v-model="sub.value"
+                                solo></v-select>
+                      <Datepicker v-else-if="sub.type==='date'"
+                                  :data="sub"
+                                  v-on:ChangeDate="GetDate" />
+                      <v-btn v-else-if="sub.type==='button'"
+                             :class="sub.class"
+                             @click="handle_function_call(sub.action)"
+                             dark
+                             rounded>
+                        {{sub.text}}
+                      </v-btn>
+                    </v-col>
+                  </template>
+                </v-row>
+              </v-col>
+            </template>
+          </v-row>
+        </v-card>
+
       </template>
     </v-data-iterator>
   </v-container>
@@ -123,6 +118,9 @@ export default {
     GetDate(_data, _date) {
       this.data[0][_data.title] = _date;
     },
+    handle_function_call(function_name) {
+      this[function_name]();
+    },
     SameAddress
   },
   computed: {
@@ -149,8 +147,8 @@ export default {
 };
 
 //把db的資料存進template
-async function CombineDataToTemplate(_from, _to) {
-  await _to.forEach(element => {
+function CombineDataToTemplate(_from, _to) {
+  _to.forEach(element => {
     element.items.forEach(item => {
       item.value = _from[0][item.title];
     });
@@ -158,8 +156,8 @@ async function CombineDataToTemplate(_from, _to) {
 }
 
 //把template的資料存進db
-async function CombineTemplateToData(_from, _to) {
-  await _from.forEach(from => {
+function CombineTemplateToData(_from, _to) {
+  _from.forEach(from => {
     from.items.forEach(data => {
       if (data.type !== "button") {
         _to[0][data.title] = from.items.find(x => x.title === data.title).value;

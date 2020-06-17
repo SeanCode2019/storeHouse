@@ -1,0 +1,63 @@
+[
+    {
+        "buttons": [
+            {
+                "text": "編輯",
+                "action": "",
+                "class": "light-blue darken-3"
+            },
+            {
+                "text": "刪除",
+                "action": "",
+                "class": "red darken-1"
+            }
+        ],
+        "datas": [
+            {
+                "text": "功能",
+                "value": "actions",
+                "sortable": false
+            },
+            {
+                "text": "姓名",
+                "value": "Name"
+            },
+            {
+                "text": "身分證統編",
+                "value": "Identity"
+            },
+            {
+                "text": "與借款人關係",
+                "value": "Relationship"
+            },
+            {
+                "text": "性別",
+                "value": "Gender"
+            },
+            {
+                "text": "年齡",
+                "value": "Age"
+            },
+            {
+                "text": "婚姻狀況",
+                "value": "MaritalStatus"
+            },
+            {
+                "text": "聯絡電話",
+                "value": "ContactNumber"
+            },
+            {
+                "text": "利害關係人",
+                "value": "Stakeholder"
+            },
+            {
+                "text": "匯入CIF",
+                "value": "ImportYN"
+            },
+            {
+                "text": "保證項目",
+                "value": "Guarantee"
+            }
+        ]
+    }
+]

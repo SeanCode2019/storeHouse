@@ -20,6 +20,8 @@ import 借款人Data from "../../../json/進件作業/借款人/Data/借款人Da
 import 借款人Template from "../../../json/進件作業/借款人/Template/借款人Template.json";
 import 單據寄交方式Data from "../../../json/進件作業/借款人/Data/單據寄交方式Data.json";
 import 單據寄交方式Template from "../../../json/進件作業/借款人/Template/單據寄交方式Template.json";
+import 經營事業_服務單位Data from "../../../json/進件作業/借款人/Data/經營事業_服務單位Data.json";
+import 經營事業_服務單位Template from "../../../json/進件作業/借款人/Template/經營事業_服務單位Template.json";
 export default {
   components: {
     AutoForm
@@ -38,6 +40,11 @@ export default {
         title: "單據寄交方式",
         template: 單據寄交方式Template,
         data: 單據寄交方式Data
+      },
+      {
+        title: "經營事業/服務單位",
+        template: 經營事業_服務單位Template,
+        data: 經營事業_服務單位Data
       }
     ];
   }

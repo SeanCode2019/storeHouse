@@ -16,30 +16,919 @@
         },
         "items": [
             {
-                "title": "Notice",
+                "title": "UniformNum",
+                "type": "input",
+                "cols": {
+                    "sm": "6"
+                },
+                "value": ""
+            },
+            {
+                "title": "AgencyCode",
+                "type": "input",
+                "cols": {
+                    "sm": "2"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "6",
+                "xl": "6"
+            }
+        },
+        "label": {
+            "text": "本行企金信用評等",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "UniformNum",
+                "type": "input",
+                "cols": {
+                    "sm": "6"
+                },
+                "value": "",
+                "placholder":"本行近二年企金信用評等：3等 (查詢日期：2018/01/01)",
+                "filled":true,
+                "readonly":true
+            },
+            {
+                "type": "button",
+                "cols": {
+                    "sm": "2"
+                },
+                "text": "查詢",
+                "action":"",
+                "class":"teal darken-1 mt-3"
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "機關別",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "Institution",
+                "type": "input",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "公司/機關名稱",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "CompanyName",
+                "type": "input",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "公司/機關人數",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "CompanyManCount",
+                "type": "input",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": "",
+                "suffix":"人"
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "核准設立日期",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "EstablishmentDate",
+                "type": "input",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "員工編號",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "EmployeeNumber",
+                "type": "input",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "行業別(營業項目)(*)",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "Industry",
                 "type": "select",
                 "cols": {
                     "sm": "8"
                 },
                 "value": "",
-                "selects": [
+                "selects":[
                     {
-                        "text": "請選擇",
-                        "value": "0"
+                        "text":"農林漁牧",
+                        "value":"0"
                     },
                     {
-                        "text": "Email",
+                        "text":"公務",
+                        "value":"01"
+                    },
+                    {
+                        "text":"軍警",
+                        "value":"02"
+                    },
+                    {
+                        "text":"教職",
+                        "value":"03"
+                    },
+                    {
+                        "text":"金融",
+                        "value":"04"
+                    },
+                    {
+                        "text":"保險",
+                        "value":"05"
+                    },
+                    {
+                        "text":"資訊",
+                        "value":"06"
+                    },
+                    {
+                        "text":"電信",
+                        "value":"07"
+                    },
+                    {
+                        "text":"仲介",
+                        "value":"08"
+                    },
+                    {
+                        "text":"...",
+                        "value":"..."
+                    },
+                    {
+                        "text":"其他",
+                        "value":"09"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "職稱(*)",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "JobTitle",
+                "type": "select",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": "",
+                "selects":[
+                    {
+                        "text":"負責人",
+                        "value":"0"
+                    },
+                    {
+                        "text":"總經理",
+                        "value":"01"
+                    },
+                    {
+                        "text":"主管(或經理)",
+                        "value":"02"
+                    },
+                    {
+                        "text":"副主管",
+                        "value":"03"
+                    },
+                    {
+                        "text":"工程師",
+                        "value":"04"
+                    },
+                    {
+                        "text":"職員",
+                        "value":"05"
+                    },
+                    {
+                        "text":"約聘人員",
+                        "value":"06"
+                    },
+                    {
+                        "text":"工友",
+                        "value":"07"
+                    },
+                    {
+                        "text":"教師",
+                        "value":"08"
+                    },
+                    {
+                        "text":"技師",
+                        "value":"09"
+                    },
+                    {
+                        "text":"會計師",
+                        "value":"10"
+                    },
+                    {
+                        "text":"律師",
+                        "value":"11"
+                    },
+                    {
+                        "text":"醫師",
+                        "value":"12"
+                    },
+                    {
+                        "text":"其他",
+                        "value":"13"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "服務年資",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "ServiceYears",
+                "type": "select",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": "",
+                "selects":[
+                    {
+                        "text":"無",
+                        "value":"0"
+                    },
+                    {
+                        "text":"未滿三個月",
+                        "value":"01"
+                    },
+                    {
+                        "text":"未滿一年",
+                        "value":"02"
+                    },
+                    {
+                        "text":"1-2年",
+                        "value":"03"
+                    },
+                    {
+                        "text":"3-4年",
+                        "value":"04"
+                    },
+                    {
+                        "text":"5-6年",
+                        "value":"05"
+                    },
+                    {
+                        "text":"7-10年",
+                        "value":"06"
+                    },
+                    {
+                        "text":"11-15年",
+                        "value":"07"
+                    },
+                    {
+                        "text":"16-20年",
+                        "value":"08"
+                    },
+                    {
+                        "text":"21年以上",
+                        "value":"09"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "工作性質",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "WorkCharacter",
+                "type": "input",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "客群分類(*)",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "CustomerGroup",
+                "type": "select",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": "",
+                "selects":[
+                    {
+                        "text":"優質客戶",
+                        "value":"0"
+                    },
+                    {
+                        "text":"一般客戶",
+                        "value":"01"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "月薪(*)",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "Salary",
+                "type": "input",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": "",
+                "suffix":"仟元"
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "發薪日",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "Payday",
+                "type": "input",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": "",
+                "suffix":"日"
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "報稅年收入+其他收入(*)",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "OtherSalary",
+                "type": "input",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": "",
+                "suffix":"仟元"
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "報稅年收入(*)",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "AnnualTax",
+                "type": "input",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": "",
+                "suffix":"仟元"
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "所屬部門",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "Department",
+                "type": "input",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "公司電話",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "PhoneCode",
+                "type": "input",
+                "cols": {
+                    "sm": "2"
+                },
+                "value": "",
+                "prefix":"(",
+                "suffix":")"
+            },
+            {
+                "title": "Phone",
+                "type": "input",
+                "cols": {
+                    "sm": "3"
+                },
+                "value": ""
+            },
+            {
+                "title": "Extension",
+                "type": "input",
+                "cols": {
+                    "sm": "3"
+                },
+                "value": "",
+                "prefix":"分機"
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "12",
+                "lg": "12",
+                "xl": "12"
+            }
+        },
+        "label": {
+            "text": "公司地址",
+            "cols": {
+                "sm": "4",
+                "md": "2",
+                "lg": "1",
+                "xl": "1"
+            }
+        },
+        "items": [
+            {
+                "title": "postalCode",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": ""
+            },
+            {
+                "title": "County",
+                "type": "select",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "selects": [
+                    {
+                        "text": "縣市別",
+                        "value": "country"
+                    },
+                    {
+                        "text": "台北市",
+                        "value": "taipei"
+                    },
+                    {
+                        "text": "新北市",
+                        "value": "newTaipei"
+                    }
+                ]
+            },
+            {
+                "title": "region",
+                "type": "select",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "selects": [
+                    {
+                        "text": "鄉/鎮/市/區",
                         "value": "01"
                     },
                     {
-                        "text": "郵寄",
+                        "text": "松山區",
                         "value": "02"
                     },
                     {
-                        "text": "Email及郵寄",
+                        "text": "大安區",
                         "value": "03"
                     }
                 ]
+            },
+            {
+                "title": "village",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "村(里)"
+            },
+            {
+                "title": "adjacent",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "鄰"
+            },
+            {
+                "title": "road",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": ""
+            },
+            {
+                "title": "roadType",
+                "type": "select",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "鄰",
+                "placeholder": "路",
+                "selects": [
+                    {
+                        "text": "路",
+                        "value": "01"
+                    },
+                    {
+                        "text": "街",
+                        "value": "02"
+                    },
+                    {
+                        "text": "道",
+                        "value": "03"
+                    }
+                ]
+            },
+            {
+                "title": "segment",
+                "type": "select",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "selects": [
+                    {
+                        "text": "無",
+                        "value": "0"
+                    },
+                    {
+                        "text": "一",
+                        "value": "01"
+                    },
+                    {
+                        "text": "二",
+                        "value": "02"
+                    },
+                    {
+                        "text": "三",
+                        "value": "03"
+                    },
+                    {
+                        "text": "四",
+                        "value": "04"
+                    },
+                    {
+                        "text": "五",
+                        "value": "05"
+                    }
+                ]
+            },
+            {
+                "title": "lane",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "巷"
+            },
+            {
+                "title": "alley",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "弄"
+            },
+            {
+                "title": "num",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "號"
+            },
+            {
+                "title": "numOf",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": ""
+            },
+            {
+                "title": "floor",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "prefix": "之",
+                "suffix": "樓"
+            },
+            {
+                "title": "Of",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "prefix": "之"
+            },
+            {
+                "title": "room",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "室"
             }
         ]
     }

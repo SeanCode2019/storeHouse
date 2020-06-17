@@ -21,7 +21,7 @@ export default {
   }),
   created() {
     this.combine = {
-      title: "申請資訊",
+      title: "申請案件",
       template: 申請案件Template,
       data: 申請案件Data
     };
