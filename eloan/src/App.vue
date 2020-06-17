@@ -5,7 +5,8 @@
       <Header />
       <Tabs :items="tabs" />
       <v-divider></v-divider>
-      <FeedOperation />
+      <FeedOperation v-show="false" />
+      <CollateralInfo/>
     </v-container>
   </v-app>
 </template>
@@ -14,13 +15,15 @@
 import Header from "./components/Header";
 import Tabs from "./components/Tabs";
 import FeedOperation from "./components/FeedOperation";
+import CollateralInfo from "./components/擔保品資料/CollateralInfo";
 
 export default {
   title: "App",
   components: {
     Header,
     Tabs,
-    FeedOperation
+    FeedOperation,
+    CollateralInfo
   },
   data: () => ({
     tabs: [

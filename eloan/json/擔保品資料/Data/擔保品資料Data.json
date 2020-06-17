@@ -1,0 +1,16 @@
+[
+    {
+        "CollateralNum": "02-03-001",
+        "Order": "1",
+        "CollateralType": "乙種車輛",
+        "ValuationDate": "2018/06/21",
+        "ValuationPrice": "1,000,000",
+        "LoanLimit": "700,000",
+        "SetLimits": "1,000,000",
+        "State": "",
+        "MortgageType": "",
+        "GuaranteeNum":"A",
+        "Holder":"",
+        "User":""
+    }
+]

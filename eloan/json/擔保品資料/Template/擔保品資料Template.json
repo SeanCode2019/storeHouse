@@ -1,0 +1,65 @@
+[
+    {
+        "buttons": [
+            {
+                "text":"刪除",
+                "action":""
+            }
+        ],
+        "datas": [
+            {
+                "text": "功能",
+                "value": "actions",
+                "sortable": false
+            },
+            {
+                "text": "擔保品編號",
+                "value": "CollateralNum"
+            },
+            {
+                "text": "次序",
+                "value": "Order"
+            },
+            {
+                "text": "擔保品種類",
+                "value": "CollateralType"
+            },
+            {
+                "text": "鑑價日期",
+                "value": "ValuationDate"
+            },
+            {
+                "text": "鑑價金額",
+                "value": "ValuationPrice"
+            },
+            {
+                "text": "貸放限額",
+                "value": "LoanLimit"
+            },
+            {
+                "text": "設定限額/設值金額",
+                "value": "SetLimits"
+            },
+            {
+                "text": "狀態",
+                "value": "State"
+            },
+            {
+                "text": "抵押權種類",
+                "value": "MortgageType"
+            },
+            {
+                "text": "擔保件號",
+                "value": "GuaranteeNum"
+            },
+            {
+                "text": "所有人",
+                "value": "Holder"
+            },
+            {
+                "text": "使用者",
+                "value": "User"
+            }
+        ]
+    }
+]

@@ -1,0 +1,130 @@
+[
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "廠牌",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "Brand",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "牌照號碼",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "LicenseNum",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "原申請編號",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "OriginalNum",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "型式",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "Type",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                },
+                "value": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "buttons": [
+            {
+                "text":"刪除",
+                "action":""
+            }
+        ],
+        "datas": [
+            {
+                "text": "功能",
+                "value": "actions",
+                "sortable": false
+            },
+            {
+                "text": "擔保品編號",
+                "value": "CollateralNum"
+            },
+            {
+                "text": "次序",
+                "value": "Order"
+            },
+            {
+                "text": "擔保方式",
+                "value": "CollateralMethod"
+            },
+            {
+                "text": "擔保件號",
+                "value": "GuaranteeNum"
+            },
+            {
+                "text": "核准號碼",
+                "value": "ApprovalNum"
+            },
+            {
+                "text": "會計項目",
+                "value": "AccountingItem"
+            },
+            {
+                "text": "貸款種類",
+                "value": "LoanType"
+            },
+            {
+                "text": "申請金額",
+                "value": "ApplyMoney"
+            },
+            {
+                "text": "借款期限(月)",
+                "value": "LoanLimitMoth"
+            }
+        ]
+    }
+]

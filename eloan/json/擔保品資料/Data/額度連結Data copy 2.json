@@ -1,0 +1,13 @@
+[
+    {
+        "CollateralNum": "03-06-001",
+        "Order": "1",
+        "CollateralMethod": "正擔保",
+        "GuaranteeNum": "A",
+        "ApprovalNum": "70702200",
+        "AccountingItem": "17922-存單綜存短擔",
+        "LoanType": "SX-個人存單質借",
+        "ApplyMoney": "2,980,000",
+        "LoanLimitMoth": "12"
+    }
+]

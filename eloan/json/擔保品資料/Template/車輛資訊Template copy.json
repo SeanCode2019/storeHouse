@@ -1,0 +1,668 @@
+[
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "廠牌",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "Brand",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "牌照號碼",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "LicenseNum",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "原申請編號",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "OriginalNum",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "型式",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "Type",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "出廠年月",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "Year",
+                "type": "input",
+                "cols": {
+                    "sm": "4",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                },
+                "value": ""
+            },
+            {
+                "title": "Moth",
+                "type": "input",
+                "cols": {
+                    "sm": "4",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "顏色",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "color",
+                "type": "input",
+                "cols": {
+                    "col": "8"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "排氣量",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "Exhaust",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "買賣成交價",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "FinalPrice",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                }
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "參考價",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "ReferencePrice",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                }
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "設定標準",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "SettingStandards",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                }
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "鑑價金額",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "ValuationPrice",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                }
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "貸放成數",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "LoanScale",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                }
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "放款值",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "LoanPrice",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                }
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "設定限額",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "SettingPrice",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                }
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "設定年限",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "SettingYear",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                }
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "原貸銀行",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "OriginalBank",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                }
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "原貸月付款",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "OriginalYearPrice",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                }
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "原貸款期間",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "OriginalLoanPeriod",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                }
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "原貸放日",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "OriginalLoanDate",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                }
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "原貸繳款日",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "",
+                "type": "OriginalPayDate",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                }
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "目前餘額",
+            "cols": {
+                "sm": "4",
+                "md": "",
+                "lg": "",
+                "xl": ""
+            }
+        },
+        "items": [
+            {
+                "title": "CurrentBalance",
+                "type": "input",
+                "cols": {
+                    "sm": "8",
+                    "md": "",
+                    "lg": "",
+                    "xl": ""
+                }
+            }
+        ]
+    },
+]
