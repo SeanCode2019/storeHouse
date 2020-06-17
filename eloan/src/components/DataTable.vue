@@ -12,7 +12,7 @@
             <v-card>
               <v-switch :input-value="!isExpanded(data)"
                         :label="data.label"
-                        class="pl-4 mt-0"
+                        class="pl-4 pt-4 mt-0 teal lighten-5 font-weight-bold "
                         @change="(v) => expand(data, !v)"></v-switch>
               <v-divider></v-divider>
               <v-row class="ma-3 border"
@@ -21,58 +21,13 @@
                 <v-data-table :headers="headers"
                               :items="rowDatas"
                               class="elevation-1">
-                  <template v-slot:top>
-                    <v-toolbar flat
-                               color="white">
-                      <v-spacer></v-spacer>
-                      <v-dialog v-model="dialog"
-                                max-width="500px">
-                        <template v-slot:activator="{ on, attrs }">
-                          <v-btn color="primary"
-                                 dark
-                                 absolute
-                                 left
-                                 class="mb-2"
-                                 v-bind="attrs"
-                                 v-on="on">New Item</v-btn>
-                        </template>
-                        <v-card>
-                          <v-card-title>
-                            <span class="headline">{{ formTitle }}</span>
-                          </v-card-title>
-                          <v-card-text>
-                            <v-container>
-                              <v-row>
-                                <v-col cols="12"
-                                       sm="6"
-                                       md="4"
-                                       v-for="(item,i) in headers"
-                                       :key="i"
-                                       :style="{display: item.value=='actions'?'none':'block'}">
-                                  <v-text-field :v-model="editedItem[item.value]"
-                                                :label="item.text"></v-text-field>
-                                </v-col>
-                              </v-row>
-                            </v-container>
-                          </v-card-text>
-                          <v-card-actions>
-                            <v-spacer></v-spacer>
-                            <v-btn color="blue darken-1"
-                                   text
-                                   @click="close">Cancel</v-btn>
-                            <v-btn color="blue darken-1"
-                                   text
-                                   @click="save">Save</v-btn>
-                          </v-card-actions>
-                        </v-card>
-                      </v-dialog>
-                    </v-toolbar>
-                  </template>
                   <template v-slot:item.actions="{ item }">
                     <v-btn v-for="btn in buttons"
                            :key="btn.text"
                            small
-                           class="mr-2"
+                           dark
+                           rounded
+                           :class="`ma-1 ${btn.class}`"
                            @click="editItem(item)">
                       {{btn.text}}
                     </v-btn>

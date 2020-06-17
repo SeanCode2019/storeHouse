@@ -17,12 +17,12 @@ import Tabs from "./Tabs";
 import AutoForm from "./AutoForm";
 import DataTable from "./DataTable";
 import { mapFields } from "vuex-map-fields";
-import 申請資訊Data from "../../json/進件作業/Data/申請資訊Data.json";
-import 申請資訊Template from "../../json/進件作業/Template/申請資訊Template.json";
-import 借款人Data from "../../json/進件作業/Data/借款人Data.json";
-import 借款人Template from "../../json/進件作業/Template/借款人Template.json";
-import 申請案件Data from "../../json/進件作業/Data/申請案件Data.json";
-import 申請案件Template from "../../json/進件作業/Template/申請案件Template.json";
+import 申請資訊Data from "../../json/進件作業/申請資訊/Data/申請資訊Data.json";
+import 申請資訊Template from "../../json/進件作業/申請資訊/Template/申請資訊Template.json";
+import 借款人Data from "../../json/進件作業/申請資訊/Data/借款人Data.json";
+import 借款人Template from "../../json/進件作業/申請資訊/Template/借款人Template.json";
+import 申請案件Data from "../../json/進件作業/申請資訊/Data/申請案件Data.json";
+import 申請案件Template from "../../json/進件作業/申請資訊/Template/申請案件Template.json";
 
 export default {
   components: {

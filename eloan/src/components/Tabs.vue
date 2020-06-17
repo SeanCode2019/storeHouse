@@ -1,9 +1,13 @@
 <template>
   <v-tabs>
-    <v-tab v-for="(item,i) in items"
-           :key="i"
-           @click="ChangePage(item)"
-           :href="item.href">{{item.text}}</v-tab>
+    <router-link v-for="(item,i) in items"
+                 :key="i"
+                 :to="{name:`${item.to}`}"
+                 append>
+      <v-tab>
+        {{item.text}}
+      </v-tab>
+    </router-link>
   </v-tabs>
 </template>
 
@@ -24,3 +28,11 @@ export default {
   }
 };
 </script>
+<style scoped>
+a {
+  text-decoration: none !important;
+}
+.v-tab {
+  height: 100%;
+}
+</style>

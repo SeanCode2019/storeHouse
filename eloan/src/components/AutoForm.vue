@@ -12,7 +12,7 @@
             <v-card>
               <v-switch :input-value="!isExpanded(data)"
                         :label="data.label"
-                        class="pl-4 mt-0"
+                        class="pl-4 pt-4 mt-0 teal lighten-5 font-weight-bold"
                         @change="(v) => expand(data, !v)"></v-switch>
               <v-divider></v-divider>
               <v-row class="ma-3 border"
@@ -25,7 +25,11 @@
                          :xl="item.mainPart.cols.xl"
                          :key="i">
                     <v-row>
-                      <v-col :cols="item.label.cols.col">
+                      <v-col v-if="item.label.text !==''"
+                             :cols="item.label.cols.sm"
+                             :md="item.label.cols.md"
+                             :lg="item.label.cols.lg"
+                             :xl="item.label.cols.xl">
                         <v-chip class="ma-2 body-2 light-blue darken-3 "
                                 label
                                 dark>
@@ -33,10 +37,17 @@
                         </v-chip>
                       </v-col>
                       <template v-for="(sub,i) in item.items">
-                        <v-col :cols="sub.cols.col"
+                        <v-col :cols="sub.cols.sm"
+                               :md="sub.cols.md"
+                               :lg="sub.cols.lg"
+                               :xl="sub.cols.xl"
                                :key="i">
                           <v-text-field v-if="sub.type==='input'"
                                         v-model="sub.value"
+                                        :label="sub.label"
+                                        :filled="sub.filled"
+                                        :readonly="sub.readonly"
+                                        :placeholder="sub.placeholder"
                                         :prefix="sub.prefix"
                                         :suffix="sub.suffix"></v-text-field>
                           <v-textarea v-else-if="sub.type==='textArea'"
@@ -54,11 +65,19 @@
                                     :items="sub.selects"
                                     :label="'請選擇'"
                                     :item-value="sub.value"
+                                    :suffix="sub.suffix"
                                     v-model="sub.value"
                                     solo></v-select>
                           <Datepicker v-else-if="sub.type==='date'"
                                       :data="sub"
                                       v-on:ChangeDate="GetDate" />
+                          <v-btn v-else-if="sub.type==='button'"
+                                 :class="sub.class"
+                                 @click="SameAddress"
+                                 dark
+                                 rounded>
+                            {{sub.text}}
+                          </v-btn>
                         </v-col>
                       </template>
                     </v-row>
@@ -103,7 +122,8 @@ export default {
   methods: {
     GetDate(_data, _date) {
       this.data[0][_data.title] = _date;
-    }
+    },
+    SameAddress
   },
   computed: {
     ...mapFields(["subPage"])
@@ -141,8 +161,37 @@ async function CombineDataToTemplate(_from, _to) {
 async function CombineTemplateToData(_from, _to) {
   await _from.forEach(from => {
     from.items.forEach(data => {
-      _to[0][data.title] = from.items.find(x => x.title === data.title).value;
+      if (data.type !== "button") {
+        _to[0][data.title] = from.items.find(x => x.title === data.title).value;
+      }
     });
+  });
+}
+
+function SameAddress() {
+  let household = [
+    "AddressType",
+    "PhoneCode",
+    "PhoneNum",
+    "postalCode",
+    "County",
+    "region",
+    "village",
+    "adjacent",
+    "road",
+    "roadType",
+    "segment",
+    "lane",
+    "alley",
+    "num",
+    "numOf",
+    "floor",
+    "Of",
+    "room"
+  ];
+
+  household.forEach(item => {
+    this.data[0][`Contact${item}`] = this.data[0][item];
   });
 }
 </script>

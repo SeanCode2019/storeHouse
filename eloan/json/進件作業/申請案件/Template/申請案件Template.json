@@ -3,15 +3,18 @@
         "buttons": [
             {
                 "text":"編輯",
-                "action":""
+                "action":"",
+                "class":"light-blue darken-3"
             },
             {
                 "text":"註銷",
-                "action":""
+                "action":"",
+                "class":"red darken-1"
             },
             {
                 "text":"刪除",
-                "action":""
+                "action":"",
+                "class":"red darken-1"
             }
         ],
         "datas": [

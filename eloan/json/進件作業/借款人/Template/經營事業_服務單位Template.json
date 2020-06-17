@@ -1,0 +1,46 @@
+[
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "統一編號/機關代號",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "Notice",
+                "type": "select",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": "",
+                "selects": [
+                    {
+                        "text": "請選擇",
+                        "value": "0"
+                    },
+                    {
+                        "text": "Email",
+                        "value": "01"
+                    },
+                    {
+                        "text": "郵寄",
+                        "value": "02"
+                    },
+                    {
+                        "text": "Email及郵寄",
+                        "value": "03"
+                    }
+                ]
+            }
+        ]
+    }
+]
