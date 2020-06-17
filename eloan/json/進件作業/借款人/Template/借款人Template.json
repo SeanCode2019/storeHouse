@@ -1,0 +1,1318 @@
+[
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "借款人姓名",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "Borrower",
+                "type": "input",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "身分證字號",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "ID",
+                "type": "input",
+                "cols": {
+                    "sm": "4"
+                },
+                "value": "",
+                "filled": true,
+                "readonly": true
+            },
+            {
+                "title": "subID",
+                "type": "input",
+                "cols": {
+                    "sm": "4"
+                },
+                "value": "",
+                "filled": true,
+                "readonly": true
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "性別",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "gender",
+                "type": "checkbox",
+                "selects": [
+                    "男",
+                    "女"
+                ],
+                "cols": {
+                    "sm": "8"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "出生年月日(*)",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "birthday",
+                "type": "date",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "教育程度(*)",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "eduactionalLevel",
+                "type": "select",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": "",
+                "selects": [
+                    {
+                        "text": "請選擇",
+                        "value": "0"
+                    },
+                    {
+                        "text": "國中以下",
+                        "value": "01"
+                    },
+                    {
+                        "text": "國中",
+                        "value": "02"
+                    },
+                    {
+                        "text": "高中職",
+                        "value": "03"
+                    },
+                    {
+                        "text": "大學(專科)",
+                        "value": "04"
+                    },
+                    {
+                        "text": "碩士",
+                        "value": "05"
+                    },
+                    {
+                        "text": "博士",
+                        "value": "06"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "婚姻狀況(*)",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "MaritalStatus",
+                "type": "select",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": "",
+                "selects": [
+                    {
+                        "text": "請選擇",
+                        "value": "0"
+                    },
+                    {
+                        "text": "未婚",
+                        "value": "01"
+                    },
+                    {
+                        "text": "已婚",
+                        "value": "02"
+                    },
+                    {
+                        "text": "其他",
+                        "value": "03"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "扶養子女人數(*)",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "ChildrenCount",
+                "type": "select",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": "",
+                "suffix": "人",
+                "selects": [
+                    {
+                        "text": "請選擇",
+                        "value": "0"
+                    },
+                    {
+                        "text": "1",
+                        "value": "01"
+                    },
+                    {
+                        "text": "2",
+                        "value": "02"
+                    },
+                    {
+                        "text": "3",
+                        "value": "03"
+                    },
+                    {
+                        "text": "4",
+                        "value": "04"
+                    },
+                    {
+                        "text": "5",
+                        "value": "05"
+                    },
+                    {
+                        "text": "6",
+                        "value": "06"
+                    },
+                    {
+                        "text": "7",
+                        "value": "07"
+                    },
+                    {
+                        "text": "8",
+                        "value": "08"
+                    },
+                    {
+                        "text": "9",
+                        "value": "09"
+                    },
+                    {
+                        "text": "10",
+                        "value": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "國籍代號",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "NationalityCode",
+                "type": "date",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "A194洗錢資恐高風險戶",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "HighRisk",
+                "type": "input",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": "",
+                "suffix": "YYYY/MM/DD",
+                "filled": true,
+                "readonly": true
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "A245拒絕開戶名單",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "RefuseAccount",
+                "type": "input",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": "",
+                "suffix": "YYYY/MM/DD",
+                "filled": true,
+                "readonly": true
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "12",
+                "lg": "6",
+                "xl": "6"
+            }
+        },
+        "label": {
+            "text": "AML系統可疑名單",
+            "cols": {
+                "sm": "4",
+                "md": "2",
+                "lg": "2"
+            }
+        },
+        "items": [
+            {
+                "title": "suspicious",
+                "type": "input",
+                "cols": {
+                    "sm": "4",
+                    "md": "5"
+                },
+                "value": "",
+                "suffix": "YYYY/MM/DD",
+                "filled": true,
+                "readonly": true
+            },
+            {
+                "title": "suspiciousReason",
+                "type": "input",
+                "cols": {
+                    "sm": "4",
+                    "md": "5"
+                },
+                "value": "",
+                "label": "如為可疑名單，請說明原因：",
+                "placeholder": "如為可疑名單，請說明原因"
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "戶籍地址類型(*)",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "AddressType",
+                "type": "select",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": "",
+                "selects": [
+                    {
+                        "text": "請選擇",
+                        "value": "0"
+                    },
+                    {
+                        "text": "本人所有",
+                        "value": "01"
+                    },
+                    {
+                        "text": "配偶所有",
+                        "value": "02"
+                    },
+                    {
+                        "text": "父母所有",
+                        "value": "03"
+                    },
+                    {
+                        "text": "家族所有",
+                        "value": "04"
+                    },
+                    {
+                        "text": "宿舍",
+                        "value": "05"
+                    },
+                    {
+                        "text": "租賃",
+                        "value": "06"
+                    },
+                    {
+                        "text": "其他",
+                        "value": "07"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "戶籍電話(*)",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "PhoneCode",
+                "type": "input",
+                "cols": {
+                    "sm": "4"
+                },
+                "value": "",
+                "prefix": "(",
+                "suffix": ")"
+            },
+            {
+                "title": "PhoneNum",
+                "type": "input",
+                "cols": {
+                    "sm": "4"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "12",
+                "lg": "12",
+                "xl": "12"
+            }
+        },
+        "label": {
+            "text": "戶籍地址(*)",
+            "cols": {
+                "sm": "4",
+                "md": "2",
+                "lg": "1",
+                "xl": "1"
+            }
+        },
+        "items": [
+            {
+                "title": "postalCode",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": ""
+            },
+            {
+                "title": "County",
+                "type": "select",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "selects": [
+                    {
+                        "text": "縣市別",
+                        "value": "country"
+                    },
+                    {
+                        "text": "台北市",
+                        "value": "taipei"
+                    },
+                    {
+                        "text": "新北市",
+                        "value": "newTaipei"
+                    }
+                ]
+            },
+            {
+                "title": "region",
+                "type": "select",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "selects": [
+                    {
+                        "text": "鄉/鎮/市/區",
+                        "value": "01"
+                    },
+                    {
+                        "text": "松山區",
+                        "value": "02"
+                    },
+                    {
+                        "text": "大安區",
+                        "value": "03"
+                    }
+                ]
+            },
+            {
+                "title": "village",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "村(里)"
+            },
+            {
+                "title": "adjacent",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "鄰"
+            },
+            {
+                "title": "road",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": ""
+            },
+            {
+                "title": "roadType",
+                "type": "select",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "鄰",
+                "placeholder": "路",
+                "selects": [
+                    {
+                        "text": "路",
+                        "value": "01"
+                    },
+                    {
+                        "text": "街",
+                        "value": "02"
+                    },
+                    {
+                        "text": "道",
+                        "value": "03"
+                    }
+                ]
+            },
+            {
+                "title": "segment",
+                "type": "select",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "selects": [
+                    {
+                        "text": "無",
+                        "value": "0"
+                    },
+                    {
+                        "text": "一",
+                        "value": "01"
+                    },
+                    {
+                        "text": "二",
+                        "value": "02"
+                    },
+                    {
+                        "text": "三",
+                        "value": "03"
+                    },
+                    {
+                        "text": "四",
+                        "value": "04"
+                    },
+                    {
+                        "text": "五",
+                        "value": "05"
+                    }
+                ]
+            },
+            {
+                "title": "lane",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "巷"
+            },
+            {
+                "title": "alley",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "弄"
+            },
+            {
+                "title": "num",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "號"
+            },
+            {
+                "title": "numOf",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": ""
+            },
+            {
+                "title": "floor",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "prefix": "之",
+                "suffix": "樓"
+            },
+            {
+                "title": "Of",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "prefix": "之"
+            },
+            {
+                "title": "room",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "室"
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "12",
+                "lg": "12",
+                "xl": "12"
+            }
+        },
+        "label": {
+            "text": "",
+            "cols": {
+                "sm": "0",
+                "md": "0",
+                "lg": "0",
+                "xl": "0"
+            }
+        },
+        "items": [
+            {
+                "type": "button",
+                "cols": {
+                    "sm": ""
+                },
+                "text": "同戶籍地址及電話",
+                "action": "SameAddress",
+                "class": "ml-2 orange darken-1"
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "通訊地址類型(*)",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "ContactAddressType",
+                "type": "select",
+                "cols": {
+                    "sm": "8"
+                },
+                "value": "",
+                "selects": [
+                    {
+                        "text": "請選擇",
+                        "value": "0"
+                    },
+                    {
+                        "text": "本人所有",
+                        "value": "01"
+                    },
+                    {
+                        "text": "配偶所有",
+                        "value": "02"
+                    },
+                    {
+                        "text": "父母所有",
+                        "value": "03"
+                    },
+                    {
+                        "text": "家族所有",
+                        "value": "04"
+                    },
+                    {
+                        "text": "宿舍",
+                        "value": "05"
+                    },
+                    {
+                        "text": "租賃",
+                        "value": "06"
+                    },
+                    {
+                        "text": "其他",
+                        "value": "07"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "聯絡電話(*)",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "ContactPhoneCode",
+                "type": "input",
+                "cols": {
+                    "sm": "4"
+                },
+                "value": "",
+                "prefix": "(",
+                "suffix": ")"
+            },
+            {
+                "title": "ContactPhoneNum",
+                "type": "input",
+                "cols": {
+                    "sm": "4"
+                },
+                "value": ""
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "12",
+                "lg": "12",
+                "xl": "12"
+            }
+        },
+        "label": {
+            "text": "通訊地址(*)",
+            "cols": {
+                "sm": "4",
+                "md": "2",
+                "lg": "1",
+                "xl": "1"
+            }
+        },
+        "items": [
+            {
+                "title": "ContactpostalCode",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": ""
+            },
+            {
+                "title": "ContactCounty",
+                "type": "select",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "selects": [
+                    {
+                        "text": "縣市別",
+                        "value": "country"
+                    },
+                    {
+                        "text": "台北市",
+                        "value": "taipei"
+                    },
+                    {
+                        "text": "新北市",
+                        "value": "newTaipei"
+                    }
+                ]
+            },
+            {
+                "title": "Contactregion",
+                "type": "select",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "selects": [
+                    {
+                        "text": "鄉/鎮/市/區",
+                        "value": "01"
+                    },
+                    {
+                        "text": "松山區",
+                        "value": "02"
+                    },
+                    {
+                        "text": "大安區",
+                        "value": "03"
+                    }
+                ]
+            },
+            {
+                "title": "Contactvillage",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "村(里)"
+            },
+            {
+                "title": "Contactadjacent",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "鄰"
+            },
+            {
+                "title": "Contactroad",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": ""
+            },
+            {
+                "title": "ContactroadType",
+                "type": "select",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "鄰",
+                "placeholder": "路",
+                "selects": [
+                    {
+                        "text": "路",
+                        "value": "01"
+                    },
+                    {
+                        "text": "街",
+                        "value": "02"
+                    },
+                    {
+                        "text": "道",
+                        "value": "03"
+                    }
+                ]
+            },
+            {
+                "title": "Contactsegment",
+                "type": "select",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "selects": [
+                    {
+                        "text": "無",
+                        "value": "0"
+                    },
+                    {
+                        "text": "一",
+                        "value": "01"
+                    },
+                    {
+                        "text": "二",
+                        "value": "02"
+                    },
+                    {
+                        "text": "三",
+                        "value": "03"
+                    },
+                    {
+                        "text": "四",
+                        "value": "04"
+                    },
+                    {
+                        "text": "五",
+                        "value": "05"
+                    }
+                ]
+            },
+            {
+                "title": "Contactlane",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "巷"
+            },
+            {
+                "title": "Contactalley",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "弄"
+            },
+            {
+                "title": "Contactnum",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "號"
+            },
+            {
+                "title": "ContactnumOf",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": ""
+            },
+            {
+                "title": "Contactfloor",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "prefix": "之",
+                "suffix": "樓"
+            },
+            {
+                "title": "ContactOf",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "prefix": "之"
+            },
+            {
+                "title": "Contactroom",
+                "type": "input",
+                "cols": {
+                    "sm": "2",
+                    "md": "1",
+                    "lg": "1",
+                    "xl": "1"
+                },
+                "value": "",
+                "suffix": "室"
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "現住房屋遷入年月",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "LiveYears",
+                "type": "input",
+                "cols": {
+                    "sm": ""
+                },
+                "value": "",
+                "suffix": "年"
+            },
+            {
+                "title": "LiveMonths",
+                "type": "input",
+                "cols": {
+                    "sm": ""
+                },
+                "value": "",
+                "suffix": "月"
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "行動電話(*)",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "telephone",
+                "type": "input",
+                "cols": {
+                    "sm": ""
+                },
+                "value": "",
+                "suffix": "無請輸入'999'"
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "E-MAIL(*)",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "email",
+                "type": "input",
+                "cols": {
+                    "sm": ""
+                },
+                "value": "",
+                "suffix": "無請輸入'N/A'"
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "月付房租金額",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "RentAmount",
+                "type": "input",
+                "cols": {
+                    "sm": ""
+                },
+                "value": "",
+                "suffix": " 仟元"
+            }
+        ]
+    },
+    {
+        "mainPart": {
+            "cols": {
+                "sm": "12",
+                "md": "6",
+                "lg": "4",
+                "xl": "3"
+            }
+        },
+        "label": {
+            "text": "月付貸款金額",
+            "cols": {
+                "sm": "4"
+            }
+        },
+        "items": [
+            {
+                "title": "LoanAmount",
+                "type": "input",
+                "cols": {
+                    "sm": ""
+                },
+                "value": "",
+                "suffix": "仟元"
+            }
+        ]
+    }
+]
